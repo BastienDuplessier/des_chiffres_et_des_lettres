@@ -22,3 +22,11 @@ let draw_numbers () =
     | n -> draw_numbers (n-1) (draw_number() :: acc)
   in draw_numbers 6 []
 
+let generate_number () =
+  (Random.int 899) + 100
+
+type game = {to_find : int; numbers : int list}
+
+(* unit -> game *)
+let generate_game () =
+ {to_find = generate_number(); numbers = draw_numbers()}
