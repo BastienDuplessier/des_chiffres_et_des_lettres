@@ -1,0 +1,45 @@
+Des chiffres et des lettres.
+
+Joueur du jeu des chiffres et des lettres en version terminal.
+Le jeu alterne deux types de parties : 
+   - Le compte est bon
+   - Le mot le plus long
+Le joueur devra être capable d'avoir un résultat parfait sur les deux jeux.
+
+
+= le compte est bon =
+
+Il s'agit de trouver un nombre (généralement à trois chiffres) à partir d'un tirage de 6 valeurs tirées aléatoirement parmi les nombres de 1 à 10 et les nombres 25,50,75 et 100. Pour trouver le nombre, l'on peut utiliser les nombres tirés avec les 4 opérations de base (+, -, x et /). Lorsque des nombres sont utilisés dans une opération on ne peut plus l'utiliser. Par contre on peut utiliser le résultat de l'opération. A défaut de trouver le nombre exact, il faudra s'en approcher le plus possible.
+
+Exemple 1 :
+
+Nombres : 3, 100, 8, 8, 10, 6
+A trouver : 683
+
+Opération 1 : 6 x 100 = 600
+Opération 2 : 8 x 10 = 80
+Opération 3 : 600 + 80 = 680
+Opération 4 : 680 + 3 = 683
+
+Exemple 2 :
+
+Nombres : 3, 75, 2, 4, 1, 1
+A trouver : 888
+
+Opération 1 : 75 - 1 = 74
+Opération 2 : 3 x 4 = 12
+Opération 3 : 74 x 12 = 888
+
+(source Wikipedia)
+
+= le mot le plus long =
+
+A partir d'un tirage de X lettres (le nombre était au départ de 6 et a augmenté au fur et à mesure des années jusqu'a 10 actuellement) il faut trouver le mot le plus long possible faisant partie du dictionnaire (les dictionnaires de référence étant "Le Petit Larousse illustré" et "Le Petit Robert").
+
+Tirage 1 : BAMERILANE
+Mot(s) le(s) plus long(s) : REMANIABLE, REANIMABLE
+
+Tirage 2 : ANEDOSUNEI
+Mot(s) le(s) plus long(s) : SAOUDIENNE
+
+(source Wikipedia)
